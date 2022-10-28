@@ -9,7 +9,7 @@ export function App() {
   // useSelector for Reading data from store. state.<nombreReducerEnStore>.<valorDelState> 
   const count = useSelector(state => state.counter.count)
   
-  // useDispatch to send actions (imported "decrement / increment")
+  // useDispatch to send actions (imported "decrement / increment/ etc..." from ""./redux/counter")
   const dispatch = useDispatch()
 
   //Local state for the amount to pass to incrementByAmount action
